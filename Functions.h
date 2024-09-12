@@ -75,7 +75,7 @@ public:
     if (board[row][col].getState() == 'r') {
 
       // checks if the space being moevd to is occupied
-      for (int i = ; i <)
+      //for (int i = ; i <)
     }
 
     // Movement for Knight

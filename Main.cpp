@@ -85,7 +85,7 @@ int main() {
     while (validMove == false) {
       cout << "\n\nWhere would you like to move it to?(row column)" << endl;
       cin >> newRow >> newCol;
-      move.Move(boardSpaces, userRow - 1, userCol - 1, newRow - 1, newCol - 1, validMove);
+      move.GeneralMove(boardSpaces, userRow - 1, userCol - 1, newRow - 1, newCol - 1, validMove);
     }
 
     board.printBoard(boardSpaces);
